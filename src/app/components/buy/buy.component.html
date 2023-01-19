@@ -1,0 +1,15 @@
+<div style="justify-content: center;">
+    <h2>Payment Details</h2>
+</div>
+<form class="cart-panel">
+    <label>Customer name</label>
+    <input type="text" name="Name" required minlength="6" [(ngModel)]="paymentDetails.name">
+
+    <label>Email</label>
+    <input type="text" name="email" [(ngModel)]="paymentDetails.email">
+
+    <label>Credit card number</label>
+    <input type="text" name="card number" [(ngModel)]="paymentDetails.card">
+
+    <button class="btn btn-primary" style="margin-top: 20px" type="submit">Buy Now!</button>
+</form>

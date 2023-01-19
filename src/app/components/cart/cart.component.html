@@ -1,0 +1,23 @@
+<div class="cart-container">
+    <div style="justify-content: center;">
+        <h1>Cart</h1>
+    </div>
+    <div *ngIf="orders.length" class="cart-panel">
+        <div class="cart-item" *ngFor="let order of orders">
+            <img src={{order.url}} />
+            <div class="cart-item-details">
+                <p><b>{{order.name}}</b></p>
+                <p><b>${{order.price}}</b></p>
+                <input class="number-input" type="number" name="quantity" min="1" max="30"
+                    [(ngModel)]="order.quantity" />
+            </div>
+        </div>
+        <div *ngIf="orders.length" class="empty-cart-message">
+            <h2><b> Order total: ${{getTotal()}}</b></h2>
+        </div>
+    </div>
+    <div *ngIf="!orders.length" class="cart-panel">
+        <h2><b>The Cart is Empty!</b></h2>
+    </div>
+    <app-buy></app-buy>
+</div>

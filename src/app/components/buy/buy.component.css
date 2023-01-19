@@ -1,0 +1,8 @@
+.cart-panel {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 50;
+}

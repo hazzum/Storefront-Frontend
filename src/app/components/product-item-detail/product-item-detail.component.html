@@ -1,0 +1,7 @@
+<div *ngIf="product" class="detail-container">
+    <button class="btn btn-primary" (click)="goBack()">Go back</button>
+    <img src="{{product.url}}" />
+    <h3>{{product.name}}</h3>
+    <h4>${{product.price}}</h4>
+    <h4>{{product.description}}</h4>
+</div>
