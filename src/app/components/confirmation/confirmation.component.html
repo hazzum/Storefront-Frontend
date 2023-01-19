@@ -1,1 +1,18 @@
-<p>confirmation works!</p>
+<div class="confirmation-container">
+    <div class="confirmation-header">
+        <h3>🎉🎉 Congratulations! Your order has been registered and will be delivered as soon as possible 🎉🎉</h3>
+        <h5>Order Details:</h5>
+    </div>
+    <div *ngIf="orders.length" class="confirmation-items">
+        <div class="confirmation-item" *ngFor="let order of orders">
+            <div class="cart-item-details">
+                <p><b>{{order.name}}</b></p>
+                <p><b>${{order.price}}</b></p>
+                <p><b>Quantity: {{order.quantity}}</b></p>
+            </div>
+        </div>
+        <div *ngIf="orders.length">
+            <h4><b> Order total: ${{getTotal()}}</b></h4>
+        </div>
+    </div>
+</div>

@@ -1,10 +1,10 @@
 export class PaymentDetails {
     name: string;
-    email: string;
+    address: string;
     card: string;
     constructor () {
         this.name = ""
-        this.email = ""
+        this.address = ""
         this.card = ""
     }
 }

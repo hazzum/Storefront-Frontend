@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { PaymentDetails } from 'src/app/models/payment';
 import { Product } from 'src/app/models/product';
 import { OrdersService } from 'src/app/services/orders.service';
@@ -9,10 +9,12 @@ import { OrdersService } from 'src/app/services/orders.service';
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
+  @Output() length!: number 
   orders!: Product[];
   constructor(private orderService: OrdersService) { }
   ngOnInit(): void {
     this.orders = this.orderService.getOrders()
+    this.length = this.orders.length
   }
   getTotal(): number {
     let sum = 0

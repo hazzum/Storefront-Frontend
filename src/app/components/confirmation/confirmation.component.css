@@ -1,5 +1,6 @@
 .confirmation-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 8%;
@@ -12,9 +13,20 @@
 }
 
 .confirmation-header {
-  color: #33e5bc
+  color: #33e5bc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .confirmation-item {
   margin-bottom: 30px;
+}
+
+.cart-item-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 80px;
 }

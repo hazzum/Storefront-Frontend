@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { BuyComponent } from './buy/buy.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -26,7 +27,8 @@ import { BuyComponent } from './buy/buy.component';
     CommonModule,
     FormsModule,
     RouterModule,
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule 
   ]
 })
 export class ComponentsModule { }
