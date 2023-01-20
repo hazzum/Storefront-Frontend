@@ -1,7 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { PaymentDetails } from 'src/app/models/payment';
+import { OrdersService } from 'src/app/services/orders.service';
 
 @Component({
   selector: 'app-buy',
@@ -9,15 +9,10 @@ import { PaymentDetails } from 'src/app/models/payment';
   styleUrls: ['./buy.component.css']
 })
 export class BuyComponent implements OnInit {
-  paymentDetails: PaymentDetails = {
-    name:"",
-    address:"",
-    card:""
-  };
   form!: FormGroup
   @Input() length!: number
 
-  constructor(private fb: FormBuilder, private router: Router) {}
+  constructor(private fb: FormBuilder, private router: Router, private order: OrdersService) {}
 
   ngOnInit(): void {
     this.form = this.fb.group({
@@ -27,8 +22,9 @@ export class BuyComponent implements OnInit {
     })
   }
 
-  onSubmit() {
+  async onSubmit() {
     if(confirm("Are you sure you want to proceed with this order")) {
+      await this.order.confirm(this.form.value.name, this.length)
       this.router.navigate(['../confirmation'])
     }
   }

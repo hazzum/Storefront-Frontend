@@ -5,6 +5,7 @@ export class Product {
     url: string;
     description: string;
     quantity?: number;
+    item_id?: number;
 
     constructor () {
         this.name=""

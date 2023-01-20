@@ -10,6 +10,9 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { BuyComponent } from './buy/buy.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { HistoryComponent } from './history/history.component';
 
 
 
@@ -21,7 +24,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProductItemComponent,
     ProductItemDetailComponent,
     ProductListComponent,
-    BuyComponent
+    BuyComponent,
+    SignInComponent,
+    SignUpComponent,
+    HistoryComponent
   ],
   imports: [
     CommonModule,

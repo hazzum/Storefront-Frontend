@@ -3,32 +3,32 @@
 </div>
 <form [formGroup]="form" (ngSubmit)="onSubmit()" class="cart-panel">
     <div>
-        <label>Full name
+        <label><p>Full name</p>
             <input type="text" placeholder="(minimum 3 charcters)" formControlName="name">
         </label>
         <div *ngIf="form.get('name')!.touched && form.get('name')!.invalid">
-            <p *ngIf="form.get('name')!.errors?.['required']">Please enter your name</p>
-            <p *ngIf="form.get('name')!.errors?.['minlength']">Name must be at least 3 characters long</p>
+            <p class="error" *ngIf="form.get('name')!.errors?.['required']">Please enter your name</p>
+            <p class="error" *ngIf="form.get('name')!.errors?.['minlength']">Name must be at least 3 characters long</p>
         </div>
     </div>
     <div>
-        <label>Address
+        <label><p>Address</p>
             <input type="text" placeholder="(minimum 6 charcters)" formControlName="address">
         </label>
         <div *ngIf="form.get('address')!.touched && form.get('address')!.invalid">
-            <p *ngIf="form.get('address')!.errors?.['required']">Please enter your address</p>
-            <p *ngIf="form.get('address')!.errors?.['minlength']">Address must be at least 6 characters long</p>
+            <p class="error" *ngIf="form.get('address')!.errors?.['required']">Please enter your address</p>
+            <p class="error" *ngIf="form.get('address')!.errors?.['minlength']">Address must be at least 6 characters long</p>
         </div>
     </div>
     <div>
-        <label>Credit card number
+        <label><p>Credit card number</p>
             <input type="text" placeholder="(enter 16 digits)" formControlName="card">
         </label>
         <div *ngIf="form.get('card')!.touched && form.get('card')!.invalid">
-            <p *ngIf="form.get('card')!.errors?.['required']">Please enter your Credit Card Number</p>
-            <p *ngIf="form.get('card')!.errors?.['minlength']">Credit card number must be exactly 16 digits</p>
-            <p *ngIf="form.get('card')!.errors?.['maxlength']">Credit card number must be exactly 16 digits</p>
+            <p class="error" *ngIf="form.get('card')!.errors?.['required']">Please enter your Credit Card Number</p>
+            <p class="error" *ngIf="form.get('card')!.errors?.['minlength']">Credit card number must be exactly 16 digits</p>
+            <p class="error" *ngIf="form.get('card')!.errors?.['maxlength']">Credit card number must be exactly 16 digits</p>
         </div>
     </div>
-    <button class="btn btn-primary" style="margin-top: 20px" type="submit" [disabled]="form.invalid || !length" >Buy Now!</button>
+    <button class="btn btn-primary" style="margin-top: 20px" type="submit" [disabled]="form.invalid || length<0.1" >Buy Now!</button>
 </form>

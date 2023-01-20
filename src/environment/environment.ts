@@ -1,9 +1,4 @@
-import * as dotenv from "dotenv"
-
-dotenv.config()
-const  {APP_NAME, API_URL} = process.env
-
 export const environment = {
-    appName: APP_NAME,
-    apiHost: API_URL,
+    appName: 'storefront',
+    apiHost: 'http://localhost:3000/api',
 };
