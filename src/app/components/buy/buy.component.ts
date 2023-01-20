@@ -18,7 +18,7 @@ export class BuyComponent implements OnInit {
     this.form = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
       address: ['', [Validators.required, Validators.minLength(6)]],
-      card: ['', [Validators.required, Validators.minLength(16), Validators.maxLength(16)]],
+      card: ['', [Validators.required, Validators.minLength(16), Validators.maxLength(16), Validators.pattern('[0-9]*')]],
     })
   }
 

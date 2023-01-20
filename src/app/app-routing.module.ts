@@ -7,6 +7,7 @@ import { ConfirmationComponent } from './components/confirmation/confirmation.co
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { HistoryComponent } from './components/history/history.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 const routes: Routes = [
   { path: '', component: ProductListComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'product/:id', component: ProductItemDetailComponent },
   { path: 'login', component: SignInComponent },
   { path: 'signup', component: SignUpComponent },
-  { path: 'history', component: HistoryComponent}
+  { path: 'history', component: HistoryComponent },
+  { path: '**', component: NotfoundComponent }
 ];
 
 @NgModule({
