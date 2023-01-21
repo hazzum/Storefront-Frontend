@@ -12,7 +12,7 @@ import { OrdersService } from 'src/app/services/orders.service';
 export class CartComponent implements OnInit, OnChanges {
   @Output() length!: number
   orders!: Product[];
-  logged!:boolean
+  logged!: boolean
   total: number = 0
   constructor(private orderService: OrdersService, private auth: AuthService, private router: Router) { }
 
@@ -21,8 +21,8 @@ export class CartComponent implements OnInit, OnChanges {
     if (!this.logged) {
       this.router.navigate(['/login'])
     }
-    this.orderService.getOrders().then(data => {      
-      this.orders = data      
+    this.orderService.getOrders().then(data => {
+      this.orders = data
       this.total = 0
       this.orders.forEach((order) => { this.total += order.price * (order.quantity || 0) })
       this.total = this.total.toFixed(2) as unknown as number
@@ -31,8 +31,8 @@ export class CartComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(): void {
-    this.orderService.getOrders().then(data => {      
-      this.orders = data      
+    this.orderService.getOrders().then(data => {
+      this.orders = data
       this.total = 0
       this.orders.forEach((order) => { this.total += order.price * (order.quantity || 0) })
       this.total = this.total.toFixed(2) as unknown as number
@@ -41,20 +41,24 @@ export class CartComponent implements OnInit, OnChanges {
   }
 
   clearCart(): void {
-    this.orderService.clearCart().then(()=>{
-      this.orders=[]
-      this.total=0
-    })
+    if (confirm("Are you sure you want to remove all items from the cart?")) {
+      this.orderService.clearCart().then(() => {
+        this.orders = []
+        this.total = 0
+      })
+    }
   }
 
   remove(id: any): void {
-    this.orderService.remove(id).then(()=>{
-      this.ngOnChanges()
-    })
+    if (confirm("Are you sure you want to remove this item from the cart?")) {
+      this.orderService.remove(id).then(() => {
+        this.ngOnChanges()
+      })
+    }
   }
 
   update(id: any, quantity: any): void {
-    this.orderService.update(id, quantity).then(()=>{
+    this.orderService.update(id, quantity).then(() => {
       this.ngOnChanges()
     })
   }
