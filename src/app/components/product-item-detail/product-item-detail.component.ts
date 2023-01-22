@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import { ProductsService } from 'src/app/services/products.service';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import { firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-product-item-detail',
@@ -15,9 +16,7 @@ export class ProductItemDetailComponent implements OnInit {
   ngOnInit(): void {
     let id = this.route.snapshot.paramMap.get('id')
     if (isNaN(id as unknown as number) || !id) { this.router.navigate(['/']) }
-    this.productService.getProductById(id as unknown as number).subscribe(data => {
-      this.product = data
-    })
+    firstValueFrom(this.productService.getProductById(id as unknown as number)).then(data => this.product = data)
   }
 
   goBack(): void {

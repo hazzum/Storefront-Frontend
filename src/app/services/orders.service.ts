@@ -45,11 +45,12 @@ export class OrdersService {
     let found: number = -1;
     // look for the current active order
     let currentOrder = await firstValueFrom(this.httpClient.get<any[]>(environment.apiHost + `/users/${userID}/orders/active`))
-
+    
     // if order found
     if (currentOrder.length) {
+      this.currentID = currentOrder[0].order_id
       // look for matching item
-      currentOrder[0].order_details.forEach((ele: any) => { if (ele.product_id == order.id) { found = ele.item_id as unknown as number } })
+      currentOrder[0].order_details.forEach((ele: any) => { if (ele.product_id == order.id) {found = ele.item_id as unknown as number } })
       // if found, update quantity
       if (found >= 0) {
         await this.update(found, order.quantity as unknown as number)
@@ -70,7 +71,6 @@ export class OrdersService {
         this.httpClient.post<any>(
           environment.apiHost + `/orders/`, { status: 'active' }
         ))
-
       let order_item = await firstValueFrom(
         this.httpClient.post<any>(
           environment.apiHost + `/orders/${(newOrder).id}/items/`,

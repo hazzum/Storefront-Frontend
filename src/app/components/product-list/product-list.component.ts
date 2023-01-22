@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { firstValueFrom } from 'rxjs/internal/firstValueFrom';
 import { Product } from 'src/app/models/product';
 import { ProductsService } from 'src/app/services/products.service';
 
@@ -12,7 +13,7 @@ export class ProductListComponent implements OnInit {
   constructor (private productService: ProductsService) {
   }
   ngOnInit(): void {
-    this.productService.getProducts().subscribe(data => {
+    firstValueFrom(this.productService.getProducts()).then(data => {
       this.products = data.map(ele=>{
         ele.quantity=0
         return ele
