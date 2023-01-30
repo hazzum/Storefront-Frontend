@@ -27,10 +27,10 @@ export class ProductItemComponent {
     }
     try {
       await this.orderService.addToCart(product)
-      alert(`${product.name} has been added to the cart!`)
+      alert(`${product.name}`+$localize`has been added to the cart!`)
       this.product.quantity = 0
     } catch (error: any) {
-      alert('Error: '+ error.error)
+      alert($localize`Error: `+ error.error)
     }
   }
 }

@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit {
   }
 
   signOut(): void {
-    if (confirm("Are you sure you want to sign out")) {
+    if (confirm($localize`Are you sure you want to sign out`)) {
       this.auth.signout()
       this.islogged = false
       this.userName = ''

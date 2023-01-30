@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "storefront-ui": {
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "ar-EG":"src/locale/messages.ar.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,6 +19,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize":["ar-EG"],
             "outputPath": "dist/storefront-ui",
             "index": "src/index.html",
             "main": "src/main.ts",

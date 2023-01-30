@@ -23,7 +23,7 @@ export class BuyComponent implements OnInit {
   }
 
   async onSubmit() {
-    if(confirm("Are you sure you want to proceed with this order?")) {
+    if(confirm($localize`Are you sure you want to proceed with this order?`)) {
       await this.order.confirm(this.form.value.name, this.length)
       this.router.navigate(['../confirmation'])
     }

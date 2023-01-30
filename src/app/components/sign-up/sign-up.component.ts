@@ -37,7 +37,7 @@ export class SignUpComponent {
         window.location.reload()
       },
       error: err => {
-        alert('Error: ' +err.error)
+        alert($localize`Error: ` +err.error)
       }
     })
   }

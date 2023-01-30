@@ -1,26 +1,26 @@
 <div class="cart-container">
     <div *ngIf="total>0.1" class="cart-panel">
         <div>
-            <h1>Cart</h1>
+            <h1 i18n>Cart</h1>
         </div>
         <div class="cart-item" *ngFor="let order of orders">
             <img src={{order.url}} />
             <div class="cart-item-details">
-                <p><b>Item id: {{order.item_id}}</b></p>
+                <p><b i18n>Item id: {{order.item_id}}</b></p>
                 <p><b>{{order.name}}</b></p>
-                <p><b>${{order.price}}</b></p>
+                <p><b>{{order.price | currency}}</b></p>
                 <input class="number-input" type="number" name="quantity" min="1" max="30"
                     [(ngModel)]="order.quantity" (ngModelChange)="update(order.item_id, order.quantity)"/>
-                <button class="btn btn-primary" style="margin-top: 20px" (click)="remove(order.item_id)" >Remove</button>
+                <button i18n class="btn btn-primary" style="margin-top: 20px" (click)="remove(order.item_id)" >Remove</button>
             </div>
         </div>
         <div class="empty-cart-message">
-            <h2><b> Order total: ${{total}}</b></h2>
+            <h2><b i18n> Order total: {{total | currency}}</b></h2>
         </div>
-        <button class="btn btn-primary" style="margin-top: 20px" (click)="clearCart()" >Clear cart</button>
+        <button i18n class="btn btn-primary" style="margin-top: 20px" (click)="clearCart()" >Clear cart</button>
     </div>
     <div *ngIf="total<0.1" class="cart-panel">
-        <h2><b>The Cart is Empty!</b></h2>
+        <h2><b i18n>The Cart is Empty!</b></h2>
     </div>
     <app-buy style="margin-top: 20px;" *ngIf="total>0.1" [length]="length" ></app-buy>
 </div>

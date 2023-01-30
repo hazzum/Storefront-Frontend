@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4217449844395415107" datatype="html">
+        <source>lrt</source>
+        <target>rtl</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6232017465100385929" datatype="html">
+        <source>storefront-ui</source>
+        <target>المتجر الإلكتروني الذكي</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6239299996855662020" datatype="html">
+        <source>Purchase Details</source>
+        <target>تفاصيل عملية الشراء</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8301535046747035390" datatype="html">
+        <source>Full name</source>
+        <target>الاسم الكامل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="776428777159750815" datatype="html">
+        <source>Please enter your name</source>
+        <target>يرجى إدخال اسمك الكامل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9108988948313770843" datatype="html">
+        <source>Name must be at least 3 characters long</source>
+        <target>لا بد من أن يتكون الاسم من 3 أحرف على الأقل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6304432362546770951" datatype="html">
+        <source>Address</source>
+        <target>العنوان</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="300837833857291680" datatype="html">
+        <source>Please enter your address</source>
+        <target>يرجى إدخال عنوانك</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6594677046454579892" datatype="html">
+        <source>Address must be at least 6 characters long</source>
+        <target>لا بد من أن يتكون العنوان من 6 رموز على الأقل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5908501080742652390" datatype="html">
+        <source>Credit card number</source>
+        <target>رقم البطاقة المصرفية</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5460342884893911227" datatype="html">
+        <source>Please enter your Credit Card Number</source>
+        <target>يرجى إدخال رقم البطاقة المصرفية</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4174041001380304923" datatype="html">
+        <source>Credit card number must be exactly 16 digits</source>
+        <target>لا بد أن يكون رقم البطاقة 16 رقمًا بالضبط</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8400085754573164940" datatype="html">
+        <source>Invalid credit card number</source>
+        <target>رقم بطاقة غير صحيح</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7695190178095896622" datatype="html">
+        <source>Buy Now!</source>
+        <target>اشتر الآن!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3349174514973229818" datatype="html">
+        <source>Are you sure you want to proceed with this order?</source>
+        <target>هل أنت متأكد من إتمام هذا الطلب؟</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/buy/buy.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4398863504443682316" datatype="html">
+        <source>Cart</source>
+        <target>العربة</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7592223973259558077" datatype="html">
+        <source>Item id: <x id="INTERPOLATION" equiv-text="{{order.item_id}}"/></source>
+        <target>رقم البند التعريفي: <x id="INTERPOLATION" equiv-text="{{order.item_id}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/history/history.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4814285799071780083" datatype="html">
+        <source>Remove</source>
+        <target>إزالة</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5633141732782314777" datatype="html">
+        <source> Order total: <x id="INTERPOLATION" equiv-text="{{total | currency}}"/></source>
+        <target>إجمالي الطلب: <x id="INTERPOLATION" equiv-text="{{total | currency}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="624527545820516348" datatype="html">
+        <source>Clear cart</source>
+        <target>إخلاء العربة</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5391559117924355032" datatype="html">
+        <source>The Cart is Empty!</source>
+        <target>العربة فارغة!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7127550016438965065" datatype="html">
+        <source>Are you sure you want to remove all items from the cart?</source>
+        <target>هل أنت متأكد من إزالة جميع البنود من العربة؟</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7169404707478185773" datatype="html">
+        <source>Are you sure you want to remove this item from the cart?</source>
+        <target>هل أنت متاكد من إزالة هذا البند من العربة؟</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart/cart.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="125158366340954966" datatype="html">
+        <source>🎉🎉 Success! 🎉🎉</source>
+        <target>🎉🎉 ألف مبروك! 🎉🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/confirmation/confirmation.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2666293141386305953" datatype="html">
+        <source>Thank you, </source>
+        <target>شكرًا لك يا </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/confirmation/confirmation.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6723845666934794763" datatype="html">
+        <source>🎉🎉 Your order of </source>
+        <target>🎉🎉 تم تأكيد طلبك بإجمالي </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/confirmation/confirmation.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5933190109268157703" datatype="html">
+        <source> has been confirmed!! 🎉🎉</source>
+        <target>!! 🎉🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/confirmation/confirmation.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="971435969234201133" datatype="html">
+        <source>It will be shipped within 1-3 business days</source>
+        <target>سيصل إليك في خلال 1-3 أيام</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/confirmation/confirmation.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8831060132089342158" datatype="html">
+        <source>Order id: <x id="INTERPOLATION" equiv-text="{{order.order_id}}"/></source>
+        <target>رقم الطلب التعريفي: <x id="INTERPOLATION" equiv-text="{{order.order_id}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/history/history.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2422262857907927295" datatype="html">
+        <source>Quantity: </source>
+        <target>الكمية: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/history/history.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="734934965373819800" datatype="html">
+        <source>Go back</source>
+        <target>عد إلى الوراء</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item-detail/product-item-detail.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5529674219521464292" datatype="html">
+        <source>No past orders were found</source>
+        <target>لا توجد طلبات سابقة</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/history/history.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2502388485848434957" datatype="html">
+        <source>Price: </source>
+        <target>السعر: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="617416843989232293" datatype="html">
+        <source>Quantity: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select class=&quot;select-input&quot; name=&quot;my-dropdown&quot; [(ngModel)]=&quot;product.quantity&quot;&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option *ngFor=&quot;let number of numbers&quot; [value]=&quot;number&quot; &gt;"/><x id="INTERPOLATION" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_OPTION" ctype="x-option"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></source>
+        <target>الكمية: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select class=&quot;select-input&quot; name=&quot;my-dropdown&quot; [(ngModel)]=&quot;product.quantity&quot;&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option *ngFor=&quot;let number of numbers&quot; [value]=&quot;number&quot; &gt;"/><x id="INTERPOLATION" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_OPTION" ctype="x-option"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
+          <context context-type="linenumber">5,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1358803443456357055" datatype="html">
+        <source>Add to Cart</source>
+        <target>أضف إلى العربة</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1755302090222186488" datatype="html">
+        <source>has been added to the cart!</source>
+        <target>  تمت الإضافة إلى العربة بنجاح!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3145443688760998546" datatype="html">
+        <source>Error: </source>
+        <target>خطأ: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6585265857663120390" datatype="html">
+        <source>Log in page</source>
+        <target>صفحة تسجيل الدخول</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7575173011683596027" datatype="html">
+        <source>Don&apos;t have an account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/signup&quot;&gt;"/>Sign up for an account!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>لا تمتلك حسابًا؟<x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/signup&quot;&gt;"/>اضغط هنا لتسجيل حساب جديد!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="160640128319879431" datatype="html">
+        <source>User Name</source>
+        <target>اسم المستخدم</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6703867527069088059" datatype="html">
+        <source>Please enter your user name</source>
+        <target>يرجى إدخال اسم المستخدم الخاص بك</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2995978463648983299" datatype="html">
+        <source>User name must be at least 3 characters long</source>
+        <target>يجب أن يكون اسم المستخدم مكونًا من ثلاثة أحرف على الأقل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+        <target>كلمة السر</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6366005533956235174" datatype="html">
+        <source>Please enter your password</source>
+        <target>يرجى إدخال كلمة السر</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1522429622129708396" datatype="html">
+        <source>Password must be at least 8 characters long</source>
+        <target>يجب أن تكون كلمة السر مكونة من 8 رموز على الأقل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2336550011721758066" datatype="html">
+        <source>Log in</source>
+        <target>تسجيل الدخول</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1391672840054076429" datatype="html">
+        <source>Sign up page</source>
+        <target>إنشاء حساب جديد</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3658284473786648371" datatype="html">
+        <source>Already a user? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/login&quot;&gt;"/>Log in!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>لديك حساب بالفعل؟  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/login&quot;&gt;"/>اضغط هنا لتسجيل الدخول!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5342432350421167093" datatype="html">
+        <source>First name</source>
+        <target>الاسم الأول</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="665199437400610045" datatype="html">
+        <source>Please enter your first name</source>
+        <target>يرجى إدخال اسمك الأول</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="211517652876316337" datatype="html">
+        <source>First name must be at least 3 characters long </source>
+        <target>يجب أن يتكون الاسم الأول من ثلاثة حروف على الأقل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3586674587150281199" datatype="html">
+        <source>Last name</source>
+        <target>الاسم الأخير</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4452423990243358761" datatype="html">
+        <source>Please enter your last name</source>
+        <target>يرجى إدخال اسمك الأخير</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7375549330344222993" datatype="html">
+        <source>Last name must be at least 3 characters long</source>
+        <target>يجب أن يتكون الاسم الأخير من ثلاثة أحرف على الأقل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5312727456282218392" datatype="html">
+        <source>User name</source>
+        <target>اسم المستخدم</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7028204981963450021" datatype="html">
+        <source>Sign up</source>
+        <target>تسجيل</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4167358800652758024" datatype="html">
+        <source>Welcome to My Store<x id="INTERPOLATION" equiv-text="{{userName}}"/>!</source>
+        <target>أهلًا بك في متجري<x id="INTERPOLATION" equiv-text="{{userName}}"/>!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3973779881505033160" datatype="html">
+        <source>Product List</source>
+        <target>قائمة المنتجات</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4514809632108169779" datatype="html">
+        <source>Order History</source>
+        <target>تاريخ الطلبات</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2949848596707725099" datatype="html">
+        <source>Sign out</source>
+        <target>تسجيل الخروج</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4847154021748941298" datatype="html">
+        <source>Are you sure you want to sign out</source>
+        <target>هل أنت متأكد من تسجيل الخروج؟</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

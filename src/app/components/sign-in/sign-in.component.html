@@ -1,27 +1,27 @@
 <div class="container">
     <div style="justify-content: center;">
-        <h2>Log in page</h2>
-        <h6>Don't have an account? <a routerLink="/signup">Sign up for an account!</a></h6>
+        <h2 i18n>Log in page</h2>
+        <h6 i18n>Don't have an account? <a routerLink="/signup">Sign up for an account!</a></h6>
     </div>
     <form [formGroup]="form" (ngSubmit)="onSubmit()" class="cart-panel">
         <div>
-            <label><p>User Name</p>
-                <input type="text" placeholder="(minimum 3 charcters)" formControlName="userName">
+            <label><p i18n>User Name</p>
+                <input type="text"  i18n-placeholder="(minimum 3 charcters)" formControlName="userName">
             </label>
             <div *ngIf="form.get('userName')!.touched && form.get('userName')!.invalid">
-                <p class="error" *ngIf="form.get('userName')!.errors?.['required']">Please enter your user name</p>
-                <p class="error" *ngIf="form.get('userName')!.errors?.['minlength']">User name must be at least 3 characters long</p>
+                <p i18n class="error" *ngIf="form.get('userName')!.errors?.['required']">Please enter your user name</p>
+                <p i18n class="error" *ngIf="form.get('userName')!.errors?.['minlength']">User name must be at least 3 characters long</p>
             </div>
         </div>
         <div>
-            <label><p>Password</p>
-                <input type="password" placeholder="(minimum 8 charcters)" formControlName="password">
+            <label><p i18n>Password</p>
+                <input type="password"  i18n-placeholder="(minimum 8 charcters)" formControlName="password">
             </label>
             <div *ngIf="form.get('password')!.touched && form.get('password')!.invalid">
-                <p class="error" *ngIf="form.get('password')!.errors?.['required']">Please enter your password</p>
-                <p class="error" *ngIf="form.get('password')!.errors?.['minlength']">Password must be at least 8 characters long</p>
+                <p i18n class="error" *ngIf="form.get('password')!.errors?.['required']">Please enter your password</p>
+                <p i18n class="error" *ngIf="form.get('password')!.errors?.['minlength']">Password must be at least 8 characters long</p>
             </div>
         </div>
-        <button class="btn btn-primary" style="margin-top: 20px" type="submit" [disabled]="form.invalid">Log in</button>
+        <button i18n class="btn btn-primary" style="margin-top: 20px" type="submit" [disabled]="form.invalid">Log in</button>
     </form>
 </div>

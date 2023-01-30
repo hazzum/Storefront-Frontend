@@ -1,11 +1,11 @@
 <nav class="navbar">
-    <div><h3><b>Welcome to My Store{{userName}}!</b></h3></div>
+    <div><h3><b i18n>Welcome to My Store{{userName}}!</b></h3></div>
     <div class="navbar-content">
-        <button class="btn btn-sceondary" routerLink="/">Product List</button>
-        <button class="btn btn-sceondary" *ngIf="islogged" routerLink="/cart">Cart</button>
-        <button class="btn btn-sceondary" *ngIf="islogged" routerLink="/history">Order History</button>
-        <button class="btn btn-sceondary" *ngIf="!islogged" routerLink="/login">Log in</button>
-        <button class="btn btn-sceondary" *ngIf="!islogged" routerLink="/signup">Sign up</button>
-        <button class="btn btn-sceondary" *ngIf="islogged" (click)="signOut()">Sign out</button>
+        <button i18n class="btn btn-sceondary" routerLink="/">Product List</button>
+        <button i18n class="btn btn-sceondary" *ngIf="islogged" routerLink="/cart">Cart</button>
+        <button i18n class="btn btn-sceondary" *ngIf="islogged" routerLink="/history">Order History</button>
+        <button i18n class="btn btn-sceondary" *ngIf="!islogged" routerLink="/login">Log in</button>
+        <button i18n class="btn btn-sceondary" *ngIf="!islogged" routerLink="/signup">Sign up</button>
+        <button i18n class="btn btn-sceondary" *ngIf="islogged" (click)="signOut()">Sign out</button>
     </div>
 </nav>

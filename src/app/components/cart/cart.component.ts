@@ -41,7 +41,7 @@ export class CartComponent implements OnInit, OnChanges {
   }
 
   clearCart(): void {
-    if (confirm("Are you sure you want to remove all items from the cart?")) {
+    if (confirm($localize`Are you sure you want to remove all items from the cart?`)) {
       this.orderService.clearCart().then(() => {
         this.orders = []
         this.total = 0
@@ -50,7 +50,7 @@ export class CartComponent implements OnInit, OnChanges {
   }
 
   remove(id: any): void {
-    if (confirm("Are you sure you want to remove this item from the cart?")) {
+    if (confirm($localize`Are you sure you want to remove this item from the cart?`)) {
       this.orderService.remove(id).then(() => {
         this.ngOnChanges()
       })
