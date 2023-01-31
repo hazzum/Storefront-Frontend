@@ -243,6 +243,13 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="760986369763309193" datatype="html">
+        <source> يا </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4217449844395415107" datatype="html">
         <source>lrt</source>
         <target>rtl</target>
@@ -565,7 +572,7 @@
       </trans-unit>
       <trans-unit id="7575173011683596027" datatype="html">
         <source>Don&apos;t have an account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/signup&quot;&gt;"/>Sign up for an account!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>لا تمتلك حسابًا؟<x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/signup&quot;&gt;"/>اضغط هنا لتسجيل حساب جديد!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target>لا تمتلك حسابًا؟ <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/signup&quot;&gt;"/>اضغط هنا لتسجيل حساب جديد!<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.html</context>
           <context context-type="linenumber">4</context>

@@ -16,7 +16,7 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.userName = ', ' + (jwtDecode(this.auth.getToken()) as any).name
+    this.userName = $localize`, ` + (jwtDecode(this.auth.getToken()) as any).name
     if (this.userName) { this.islogged = true }
   }
 
