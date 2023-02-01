@@ -59,7 +59,7 @@ export class OrdersService {
       else {
         return await firstValueFrom(
           this.httpClient.post<any>(
-            environment.apiHost + `/orders/${currentOrder[0].order_id}/items/`,
+            environment.apiHost + `/orders/${currentOrder[0].order_id}/items`,
             { product_id: order.id?.toString(), quantity: order.quantity }
           ))
       }
