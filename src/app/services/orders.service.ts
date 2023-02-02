@@ -33,7 +33,7 @@ export class OrdersService {
     const userID = (jwtDecode(this.auth.getToken()) as any).id
     let currentOrder = await firstValueFrom(this.httpClient.get<any[]>(environment.apiHost + `/users/${userID}/orders/completed`))
     if (currentOrder.length) {
-      return currentOrder.reverse()
+      return currentOrder
     }
     else {
       return []
@@ -69,11 +69,11 @@ export class OrdersService {
     else {
       const newOrder = await firstValueFrom(
         this.httpClient.post<any>(
-          environment.apiHost + `/orders/`, { status: 'active' }
+          environment.apiHost + `/orders`, { status: 'active' }
         ))
       let order_item = await firstValueFrom(
         this.httpClient.post<any>(
-          environment.apiHost + `/orders/${(newOrder).id}/items/`,
+          environment.apiHost + `/orders/${(newOrder).id}/items`,
           { product_id: order.id?.toString(), quantity: order.quantity }
         ))
       return order_item
