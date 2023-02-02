@@ -13,8 +13,10 @@ export class StorageService {
   }
 
   public saveUser(user: User): void {
-    window.sessionStorage.removeItem(USER_KEY);
-    window.sessionStorage.setItem(USER_KEY, JSON.stringify(user));
+    if (user) {
+      window.sessionStorage.removeItem(USER_KEY);
+      window.sessionStorage.setItem(USER_KEY, JSON.stringify(user));
+    }
   }
 
   public getUser(): User | {} {
@@ -24,5 +26,5 @@ export class StorageService {
     }
     return {}
   }
-  
+
 }
