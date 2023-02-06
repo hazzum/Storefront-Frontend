@@ -99,7 +99,7 @@ export class OrdersService {
   async confirm(name: string, total: number): Promise<void> {
     this.customer = name
     this.total = total
-    await firstValueFrom(this.httpClient.put(environment.apiHost + `/orders/${this.currentID}`, { status: 'complete' }))
+    await firstValueFrom(this.httpClient.post(environment.apiHost + `/orders/${this.currentID}/items/commit`, {}))
   }
 
   getPurchase() {

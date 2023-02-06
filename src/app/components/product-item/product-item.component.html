@@ -2,6 +2,7 @@
     <a routerLink="/product/{{product.id}}"><img class="product-image" src={{product.url}}/></a>
     <p>{{product.name}}</p>
     <p><span i18n>Price: </span>{{product.price | currency}}</p>
+    <p style="color: red;" *ngIf="product.stock!<5" i18n>Only {{product.stock}} items remaining</p>
     <label i18n>Quantity: 
         <select class="select-input" name="my-dropdown" [(ngModel)]="product.quantity">
             <option *ngFor="let number of numbers" [value]="number" >{{number}}</option>

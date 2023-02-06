@@ -1,0 +1,8 @@
+1. toast
+2. structure
+3. use guard
+4. search inquiry
+5. master detail
+6. edit in row
+7. use templates
+dgamal@ejada.com
