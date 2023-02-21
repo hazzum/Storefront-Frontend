@@ -250,13 +250,6 @@
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="760986369763309193" datatype="html">
-        <source>, </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6232017465100385929" datatype="html">
         <source>storefront-ui</source>
         <context-group purpose="location">
@@ -381,13 +374,6 @@
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3727006789599424228" datatype="html">
-        <source>Only <x id="INTERPOLATION" equiv-text="{{product.stock}}"/> items remaining</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="4814285799071780083" datatype="html">
         <source>Remove</source>
         <context-group purpose="location">
@@ -500,32 +486,46 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3727006789599424228" datatype="html">
+        <source>Only <x id="INTERPOLATION" equiv-text="{{product.stock}}"/> items remaining</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="617416843989232293" datatype="html">
         <source>Quantity: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select class=&quot;select-input&quot; name=&quot;my-dropdown&quot; [(ngModel)]=&quot;product.quantity&quot;&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option *ngFor=&quot;let number of numbers&quot; [value]=&quot;number&quot; &gt;"/><x id="INTERPOLATION" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_OPTION" ctype="x-option"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
-          <context context-type="linenumber">5,10</context>
+          <context context-type="linenumber">6,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1358803443456357055" datatype="html">
         <source>Add to Cart</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/product-item/product-item.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="800067780590085881" datatype="html">
+        <source>Please specify the quantity!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-item/product-item.component.ts</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1755302090222186488" datatype="html">
         <source>has been added to the cart!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/product-item/product-item.component.ts</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3145443688760998546" datatype="html">
         <source>Error: </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/product-item/product-item.component.ts</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">37</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/sign-in/sign-in.component.ts</context>
@@ -725,11 +725,18 @@
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="760986369763309193" datatype="html">
+        <source>, </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4847154021748941298" datatype="html">
         <source>Are you sure you want to sign out</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
     </body>

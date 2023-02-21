@@ -26,6 +26,7 @@ export class ProductItemComponent implements OnInit {
       return
     }
     if (!this.product.quantity) {
+      alert($localize`Please specify the quantity!`)
       return
     }
     try {
