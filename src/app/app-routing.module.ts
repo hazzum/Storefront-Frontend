@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'login', component: SignInComponent },
   { path: 'signup', component: SignUpComponent },
   { path: 'history', component: HistoryComponent },
+  { path: '404', component: NotfoundComponent },
   { path: '**', component: NotfoundComponent }
 ];
 
