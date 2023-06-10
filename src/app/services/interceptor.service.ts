@@ -33,7 +33,7 @@ export class Interceptor implements HttpInterceptor {
             window.location.reload()
           }
           else if(error.status==404 || error.status==400) {
-            this.router.navigate(['/404'])
+            //this.router.navigate(['/404'])
           }
           errorMessage = error.message
         }
